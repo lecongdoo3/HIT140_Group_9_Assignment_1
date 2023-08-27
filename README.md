@@ -54,6 +54,7 @@ We'd like to express our gratitude to our lecturer Dr. Yakub Sebastian at CDU fo
 
 ## List of project participants and contacts
 I spearheaded this project as the team leader, with the invaluable collaboration of three other members: Thi Minh Chau Pham, Hai Dang Dang, and Quoc Vinh Nguyen.
+
 Any concerns or contributions you might have, please feel free to reach me through [email](lecongdoo3@gmail.com).
 
 ## References
