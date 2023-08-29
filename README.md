@@ -3,9 +3,7 @@
 The goal of this project is to find a set of specific features that can tell apart individuals with Parkinson's disease from those without it.
 
 ## Data
-The origin of the data: A .txt file given by our lecturer.
-
-A study conducted the voice recordings of 20 people with Parkinson's and 20 without, with each participant contributing 26 voice samples. These samples were then broken down into various acoustic characteristics using a software named Praat.
+We use a dataset provided by our lecturer in a .txt file. The original study collected voice recordings from 20 individuals with Parkinson's disease and 20 without. Each of these participants contributed 26 voice samples, and these were analyzed for different acoustic characteristics using software called Praat.
 
 Learn more about Praat software: https://www.fon.hum.uva.nl/praat/
 
@@ -15,15 +13,15 @@ We divided the dataset into two groups: one representing individuals with Parkin
 ## Results
 To conclude, we've pinpointed the following measurements, listed alongside their respective columns, from four distinct features to differentiate individuals with Parkinson's Disease from healthy ones:
 
-Jitter: %, abs, rap, ppq5, ddp
+Jitter(%, abs, rap, ppq5, ddp)
 
-Shimmer: apq11
+Shimmer(apq11)
 
-Harmonicity: The autocorrelation between NHR and HNR
+Harmonicity(The autocorrelation between NHR and HNR)
 
-Pitch: median, mean, standard deviation, max, range
+Pitch(median, mean, standard deviation, max, range)
 
-Pulse: mean period
+Pulse(mean period)
 
 Jitter-Shimmer-Difference Ratio
 
@@ -47,6 +45,7 @@ scipy: Used for high-level computations. Specifically, scipy.stats is being impo
 statsmodels: Provides classes and functions for the estimation of statistical models.
 
 To install these packages (if you haven't already), you can use 'pip'.
+
 For example: pip install matplotlib
 
 ## Acknowledgement
